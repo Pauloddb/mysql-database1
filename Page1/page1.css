@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+
+#canvas {
+    background-color: black;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(48, 48, 48);
+}
+
+#header{
+    width: 100vw;
+    background-color: rgb(27, 27, 27);
+    height: 29px;
+}
+
+
+#account-name{
+    text-align: end;
+    padding: 3px;
+}
+
+
+#table {
+    position: absolute;
+    left: 850px;
+    top: 100px;
+    width: 500px;
+    border-collapse: collapse;
+}
+
+
+th, td{
+    border: 2px solid white;
+    padding: 5px;
+    font-size: 20px;
+}
